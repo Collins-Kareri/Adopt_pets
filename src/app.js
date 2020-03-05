@@ -5,9 +5,9 @@ import SearchParams from './SearchParams';
 const App = () => {
     return (
         <div>
-            <h1>Adopt Me</h1>
-            <SearchParams/>
+            <h1>Adopt Pets</h1>
+            <SearchParams />
         </div>)
 };
 
-ReactDOM.render(<App/>,document.getElementById("root"));
+ReactDOM.render(<App />,document.getElementById("root"));
